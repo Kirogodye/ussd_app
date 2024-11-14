@@ -1,4 +1,5 @@
 <?php
+    //use ths code in your ussd app
     //Reads the variables sent via POST from AT gateway
     $sessionId = $_POST['session_id()'];
     $serviceCode = $_POST['serviceCode'];
